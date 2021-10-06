@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Parallex website</title>
+	<style>
+		body, html {
+			height: 100%;
+			margin: 0;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 1.8em;
+			color: #666;
+			font-family: sans-serif;
+		}
+		.pig1 ,.pig2,.pig3 {
+			position: relative;
+			opacity: 0.8;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		} 
+		.pig1 {
+			background-image: url('pig1.jpg');
+			min-height: 100%;
+		}
+		.pig2 {
+			background-image: url('pig2.jpg');
+			min-height: 400px;}
+
+			.pig3 {
+			background-image: url('pig3.jpg');
+			min-height: 400px;}
+
+			.sectionupper {
+				text-align: center;
+				padding: 50px 80px;
+			}
+
+			.sectionmiddle {
+				text-align: center;
+				padding: 50px 80px;
+			}
+
+			.sectionlower {
+				text-align: center;
+				padding: 50px 80px;
+			}
+			.ptext {
+				position: absolute;
+				width: 100%;
+				top: 50%;
+				text-align: center;
+				font-size: 27px;
+				color: black;
+				letter-spacing: 8px;
+				text-transform: uppercase;
+			}
+			.ptext .border {
+				padding: 10px;
+				background-color: white;
+				border-radius: 25px;
+				margin: 10px;
+			}
+			.ptext .border .trans {
+				background-color: transparent;
+			}
+	</style>
+</head>
+<body>
+	<div class="pig1">
+		<div class="ptext">
+			<span class="border">
+				Parallax Website
+			</span>
+		</div>
+	</div>
+
+	<section class="sectionupper">
+		<h2>Sectione One</h2>
+		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, quos totam unde vel possimus labore nesciunt voluptates accusantium adipisci mollitia, doloremque praesentium ea distinctio veritatis inventore repellendus. Sunt eligendi earum animi! Nisi, delectus, magnam?Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Accusantium, vitae debitis molestias. Beatae sequi, hic! Fugiat, aspernatur. Itaque, provident! Laboriosam ipsa, ut nisi rem quia tempora maiores officiis reprehenderit voluptatum voluptate eos accusantium eveniet!</p>
+	</section>
+
+	<div class="pig2">
+		<div class="ptext">
+			<span class="border trans">
+				Image two text
+			</span>
+		</div>
+	</div>
+
+	<section class="sectionmiddle">
+		<h2>Sectione two</h2>
+		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, quos totam unde vel possimus labore nesciunt voluptates accusantium adipisci mollitia, doloremque praesentium ea distinctio veritatis inventore repellendus. Sunt eligendi earum animi! Nisi, delectus, magnam?Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Accusantium, vitae debitis molestias. Beatae sequi, hic! Fugiat, aspernatur. Itaque, provident! Laboriosam ipsa, ut nisi rem quia tempora maiores officiis reprehenderit voluptatum voluptate eos accusantium eveniet!</p>
+	</section>
+
+	<div class="pig3">
+		<div class="ptext">
+			<span class="border trans">
+				Image Three text
+			</span>
+		</div>
+	</div>
+
+	<section class="sectionlower">
+		<h2>Sectione three</h2>
+		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, quos totam unde vel possimus labore nesciunt voluptates accusantium adipisci mollitia, doloremque praesentium ea distinctio veritatis inventore repellendus. Sunt eligendi earum animi! Nisi, delectus, magnam?Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Accusantium, vitae debitis molestias. Beatae sequi, hic! Fugiat, aspernatur. Itaque, provident! Laboriosam ipsa, ut nisi rem quia tempora maiores officiis reprehenderit voluptatum voluptate eos accusantium eveniet!</p>
+	</section>
+	
+	
+</body>
+</html>
